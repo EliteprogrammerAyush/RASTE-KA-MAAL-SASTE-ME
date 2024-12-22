@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>About Us - RASTE KA MAAL SASTE ME</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  .about-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  .about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .column {
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .container h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  .title {
+    color: #555;
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+
+  .container p {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+
+  .container a {
+    text-decoration: none;
+    color: #0073e6;
+  }
+
+  .button {
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: #474e5d;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #333;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p> *RASTE KA MAAL SASTE ME* !</p>
+  <p>Iss website pe hoodie aur jacket milte hai</p>
+  <p>kapde hi dekhna bss (+_+)</p>
+</div>
+
+<h2 style="text-align:center; margin: 20px 0;">Our Team</h2>
+<div class="row">
+   <div class="column">
+    <div class="card">
+      <img src="./Images/img.ayush.jpg" alt="Ayush Soni">
+      <div class="container">
+        <h2>Ayush Soni</h2>
+        <p class="title">Malik/Seth ji</p>
+        <p>The creative genius driving our designs.</p>
+        <p><a href="https://www.linkedin.com/in/ayush-soni-5652b4328/" target="_blank">LinkedIn</a></p>
+        <button class="button">Contact</button>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="column">
+    <div class="card">
+      <img src="./Images/bandariya.pdf.jpg" alt="Anushka Sharma">
+      <div class="container">
+        <h2>Anushka Sharma</h2>
+        <p class="title">Founder</p>
+        <p>The visionary behind our brand.</p>
+        <p><a href="https://www.linkedin.com/in/anushka-sharma-842b91327/" target="_blank">LinkedIn</a></p>
+        <button class="button">Contact</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./Images/udhbhaw ki photu.jpg" alt="Udhbhaw Rai">
+      <div class="container">
+        <h2>Udhbhaw Rai</h2>
+        <p class="title">Co-Founder</p>
+        <p>The backbone of our operations.</p>
+        <p><a href="https://www.linkedin.com/in/arjun-rai-ba7602327/" target="_blank">LinkedIn</a></p>
+        <button class="button">Contact</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

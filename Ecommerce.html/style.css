@@ -1,0 +1,22 @@
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #075a20;
+}
+li{
+    float: none;
+}
+
+li a{
+    display: block;
+    color: rgb(183, 175, 175);
+    text-align: initial;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+background-color: #e69797;
+}

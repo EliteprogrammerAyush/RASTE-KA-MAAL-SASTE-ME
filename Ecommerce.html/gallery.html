@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 2.5em;
+            color: #444;
+        }
+
+        .gallery-main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .gallery {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 1px solid #eee;
+        }
+
+        .gallery p {
+            padding: 15px;
+            margin: 0;
+            font-size: 1.1em;
+            text-align: center;
+            background: #fafafa;
+            color: #555;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        .gallery a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .gallery a:hover p {
+            color: #ff5722;
+        }
+
+        @media (max-width: 768px) {
+            .gallery p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Cool aur Aeshthetic Kapde</h1>
+    <div class="gallery-main">
+        <div class="gallery">
+            <a target="_blank" href="./Images/shopping.CART2.webp">
+                <img src="./Images/shopping.CART2.webp" alt="Black and White Jacket">
+                <p>Black and White Jacket</p>
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./Images/SHOPPING.CART3.webp">
+                <img src="./Images/SHOPPING.CART3.webp" alt="Halke Bhure rang ki Jacket">
+                <p>Halke Bhure rang ki Jacket</p>
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./Images/shopping.CART4.webp">
+                <img src="./Images/shopping.CART4.webp" alt="Chamakne wali jacket">
+                <p>Chamakne wali Jacket</p>
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./Images/shopping.CART5.webp">
+                <img src="./Images/shopping.CART5.webp" alt="Brown colour ki aesthetic Jacket">
+                <p>Brown colour ki aesthetic Jacket</p>
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./Images/shopping.CART6.webp">
+                <img src="./Images/shopping.CART6.webp" alt="Grey colour ki Jacket">
+                <p>Grey colour ki Jacket</p>
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./Images/shopping.CART7.webp">
+                <img src="./Images/shopping.CART7.webp" alt="Black colour ki Windcheater">
+                <p>Black colour ki Windcheater</p>
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./Images/muffler ke saath jacket.9.jpg">
+                <img src="./Images/muffler ke saath jacket.9.jpg" alt="Muffler ke saath ke jacket">
+                <p>Muffler ke saath ke Jacket</p>
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./Images/shopping.CART12.webp">
+                <img src="./Images/shopping.CART12.webp" alt="Black colour ki jacket">
+                <p>Black colour ki Jacket</p>
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./Images/shopping.CART14.webp">
+                <img src="./Images/shopping.CART14.webp" alt="Red colour ki Sweater">
+                <p>Red colour ki Sweater</p>
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="./Images/shopping.CART15.webp">
+                <img src="./Images/shopping.CART15.webp" alt="Hoodie dekh le">
+                <p>Hoodie dekh le</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
